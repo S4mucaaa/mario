@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Site 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="C:\VS Code\imagens\personagens.jpg" style="width:65%;" class="w3-round"><br><br>
+    <h4><b>Mario Personagens</b></h4>
+    <p class="w3-text-grey">Edição do site por Samuel Nogueira</p>
+    
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PERSONAGENS</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE A FRANQUIA</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Personagens princupais</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="C:\VS Code\imagens\mario.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Mario</b></p>
+        <p>Mario é retratado como um encanador italiano baixinho, rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. 
+          Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos 
+          planos de destruir e dominar o reino.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="C:\VS Code\imagens\luigi.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Luigi</b></p>
+        <p>Luigi é irmão do Mario e seu companheiro em vários jogos.
+          A primeira aparição de Luigi se deu no jogo Mario Bros. em 1983, como personagem controlado pelo segundo jogador.
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="C:\VS Code\imagens\peach.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Peach</b></p>
+        <p>Ela é a princesa do também fictício Reino dos Cogumelos e por diversas vezes faz o papel de donzela em apuros da série, 
+          sendo constantemente salva por Mario, a quem ela é apaixonada.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="C:\VS Code\imagens\bowser.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Bowser</b></p>
+        <p>O Rei Bowser Koopa, conhecido no Japão como Koopa, ou somente Bowser, é o principal vilão do universo Mario.
+          Koopa rapta a Princesa Peach, e o Mario corre para salvá-la. Bowser apareceu nos games pela primeira vez em Super Mario Bros, 
+          e continuou como arqui-inimigo de Mario desde então. 
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="C:\VS Code\imagens\yoshi.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Yoshi</b></p>
+        <p>Yoshi é um um dinossauro antropomórfico, Sua primeira aparição foi em Super Mario Bros 3, quando um dos reis é transformado 
+          na figura de Yoshi e no modo jogável em Super Mario World. 
+
+        </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="C:\VS Code\imagens\toad.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Toad</b></p>
+        <p>Toad é um dos cogumelos servos de Peach, muito chegado a ela e a Mario e Luigi. Vive no Reino dos Cogumelos no castelo da Peach 
+          sempre a disposição. Toad é uma simpática criatura que serve de conselheiro aos irmãos Mario e Luigi dizendo o que precisam fazer no jogo, 
+          ou apenas avisando que a Princesa está em outro castelo. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="C:\VS Code\imagens\mario.png" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre a Franquia</b></h4>
+    <p>Mario é uma franquia de mídia produzida e publicada pela empresa japonesa Nintendo, protagonizado pelo personagem fictício italiano Mario. 
+      É considerada, principalmente, como uma das franquias de jogos eletrônicos mais influentes de todos os tempos. Foi originalmente criada pelo designer 
+      Shigeru Miyamoto no jogo arcade Donkey Kong em 9 de julho 1981.</p>
+    <hr>
+    
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contato Nintendo</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>email@email.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Quito, Japão</p>
+        <p>Sede da Nintendo</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="https://pt-americas-support.nintendo.com/app/contact" target="_blank">Fale Conosco</a></p>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>SITES</h3>
+      <p>
+        Site oficial da <a href="https://www.nintendo.com/pt-br/" target="_blank">Nintendo Brasil</a>
+      </p>
+      <p>Site para os jogos do <a href="https://www.nintendo.com/pt-br/store/games/mario-games/" target="_blank">Mario</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOGS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <span class="w3-large"> Blog sobre a nintendo que recomendo:  <a href="https://www.nintendo.com/pt-br/" target="_blank">Nintendo Blast</a></span><br>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Mario</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Peach</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Nintendo</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Bowser</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Jogos</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Console</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Japão</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Nintendo Switch</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Filme</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Site</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Toad</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Luigi</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">PC</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Template by W3.CSS</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
